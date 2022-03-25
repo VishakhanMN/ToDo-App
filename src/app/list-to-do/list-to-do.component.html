@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="entireContents">
+        <div class="inputValue">
+            <label>Enter item to be added to the list</label>
+            <br>
+            
+            <input type="text" [(ngModel)]="item" (keyup.enter)="addItem($event)">
+        </div>
+        <div class="separator"></div>
+        <div class="details">
+            <div class="orderedList" *ngFor="let item of list">
+                <div class="listName">{{item.item}}</div>
+                <i class="zmdi zmdi-close" (click)="close(item)"></i>
+            </div>
+        </div>
+    </div>
+
+</div>

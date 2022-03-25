@@ -1,0 +1,52 @@
+
+.container{
+    border: 1px solid black;
+    margin:0;
+    width: auto;
+    height: 550px;
+}
+
+.separator{
+    border-left: 1px solid black;
+    height: 530px;
+    width:2%;
+}
+
+.entireContents{
+    margin:10px;
+    display: flex;
+}
+
+.inputValue{
+    width:49%;
+}
+
+.details{
+    width:49%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.listName{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+i.zmdi.zmdi-close {
+    margin-right: 6px;
+    font-size: 18px;
+}
+
+.zmdi:hover{
+    cursor: pointer;
+}
+
+.orderedList{
+    margin: 3px;
+    border: 1px solid red;
+    border-radius: 10px;
+    height: 21px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
